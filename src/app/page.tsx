@@ -1,10 +1,10 @@
-import { Button } from '@common/components/ui';
+import { ChatContainer } from '@modules/chat/presentation';
 
 export default function Home() {
     return (
         <>
             Page
-            <Button>Hey</Button>
+            <ChatContainer />
         </>
     );
 }
