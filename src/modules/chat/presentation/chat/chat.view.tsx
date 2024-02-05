@@ -1,7 +1,7 @@
 'use client';
 
 import {
-    ChatHeader,
+    ChatInformation,
     ChatMessagesContainer,
     FormMessageSenderContainer,
 } from '@modules/chat/components';
@@ -9,7 +9,7 @@ import {
 export function ChatView() {
     return (
         <>
-            <ChatHeader />
+            <ChatInformation />
             <ChatMessagesContainer />
             <FormMessageSenderContainer />
         </>
