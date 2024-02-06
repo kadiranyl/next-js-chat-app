@@ -7,7 +7,7 @@ import {
     TooltipContent,
     TooltipProvider,
     TooltipTrigger,
-} from '@common/components/ui';
+} from '@core/lib/ui';
 
 type Props = {
     link: string;

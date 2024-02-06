@@ -1,6 +1,6 @@
 'use client';
 
-import { Input } from '@common/components/ui';
+import { Input } from '@core/lib/ui';
 import {
     MessageListCard,
     MessageListHeaderContainer,

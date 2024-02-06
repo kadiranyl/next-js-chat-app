@@ -1,7 +1,7 @@
 'use client';
 
-import { Badge } from '@common/components/ui';
 import Image from 'next/image';
+import { Badge } from '@core/lib/ui';
 
 type Props = {
     active?: boolean;

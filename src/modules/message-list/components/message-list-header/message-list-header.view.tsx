@@ -1,7 +1,7 @@
 'use client';
 
 import { AiOutlinePlus } from 'react-icons/ai';
-import { Badge, Button } from '@common/components/ui';
+import { Badge, Button } from '@core/lib/ui';
 
 export function MessageListHeaderView() {
     return (
