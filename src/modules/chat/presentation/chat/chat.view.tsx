@@ -9,7 +9,9 @@ import {
 export function ChatView() {
     return (
         <>
-            <ChatInformation />
+            <div className="h-[80px] px-6 py-4 border-b border-gray-200">
+                <ChatInformation />
+            </div>
             <ChatMessagesContainer />
             <FormMessageSenderContainer />
         </>

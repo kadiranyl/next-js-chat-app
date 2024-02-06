@@ -19,7 +19,7 @@ export function MessageListCard({ active }: Props) {
                         width={48}
                         height={48}
                         objectFit="cover"
-                        className="rounded-full"
+                        className="rounded-xl"
                     />
                 </div>
                 <div className="flex flex-col">
