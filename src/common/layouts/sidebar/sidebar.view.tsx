@@ -9,6 +9,7 @@ import {
     AiOutlineSearch,
     AiOutlineSetting,
 } from 'react-icons/ai';
+import { NavItem } from '@common/layouts/sidebar/components';
 
 export function SidebarView() {
     return (
@@ -21,18 +22,26 @@ export function SidebarView() {
                     height={56}
                 />
                 <nav className="flex flex-col items-center gap-8">
-                    <Link href="">
-                        <AiOutlineHome size="26px" />
-                    </Link>
-                    <Link href="">
-                        <AiOutlineMessage size="26px" />
-                    </Link>
-                    <Link href="">
-                        <AiOutlineSearch size="26px" />
-                    </Link>
-                    <Link href="">
-                        <AiOutlineCalendar size="26px" />
-                    </Link>
+                    <NavItem
+                        link=""
+                        icon={<AiOutlineHome size="26px" />}
+                        tooltip="Home"
+                    />
+                    <NavItem
+                        link=""
+                        icon={<AiOutlineMessage size="26px" />}
+                        tooltip="Messages"
+                    />
+                    <NavItem
+                        link=""
+                        icon={<AiOutlineSearch size="26px" />}
+                        tooltip="Search"
+                    />
+                    <NavItem
+                        link=""
+                        icon={<AiOutlineCalendar size="26px" />}
+                        tooltip="Calendar"
+                    />
                 </nav>
             </div>
             <Link href="">
