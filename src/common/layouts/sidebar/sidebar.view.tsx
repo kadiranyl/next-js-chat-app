@@ -13,7 +13,7 @@ import { NavItem } from '@common/layouts/sidebar/components';
 
 export function SidebarView() {
     return (
-        <aside className="flex flex-col items-center justify-between p-4 pb-6 bg-white shadow-xl">
+        <aside className="flex flex-col items-center justify-between p-4 pb-6 bg-white shadow-xl z-10">
             <div className="flex flex-col gap-12">
                 <Image
                     src="/img/logo.svg"
